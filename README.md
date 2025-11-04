@@ -14,23 +14,25 @@ The optimization model maximizes profit given the company’s production constra
 
 **Decision Variables**
 
-* (x_1): Number of Aqua-Spa units produced
-* (x_2): Number of Hydro-Lux units produced
+* $x_1$: Number of Aqua-Spa units produced
+* $x_2$: Number of Hydro-Lux units produced
 
 **Objective Function**
-[
-\text{Maximize: } Z = 350x_1 + 300x_2
-]
+
+$$
+\text{Maximize:}\quad Z = 350x_1 + 300x_2
+$$
 
 **Constraints**
-[
+
+$$
 \begin{aligned}
-x_1 + x_2 &\le 200 \quad &\text{(pumps)} \
-9x_1 + 6x_2 &\le 1566 \quad &\text{(labor)} \
-12x_1 + 16x_2 &\le 2880 \quad &\text{(tubing)} \
-x_1, x_2 &\ge 0
+x_1 + x_2 &\le 200 && \text{(pumps)} \\
+9x_1 + 6x_2 &\le 1566 && \text{(labor)} \\
+12x_1 + 16x_2 &\le 2880 && \text{(tubing)} \\
+x_1,\, x_2 &\ge 0
 \end{aligned}
-]
+$$
 
 ---
 
