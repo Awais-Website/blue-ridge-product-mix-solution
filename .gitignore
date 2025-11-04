@@ -40,6 +40,10 @@ ENV/
 *.pdf
 *.pptx
 
+# Track analysis images explicitly
+!profit_vs_pumps.png
+!profit_vs_labor.png
+
 # OS
 .DS_Store
 Thumbs.db
