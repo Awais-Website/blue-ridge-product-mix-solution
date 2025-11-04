@@ -63,10 +63,10 @@ The analysis confirms that increasing pumps or labor improves profit only up to 
 ## Visual Results
 
 **Profit vs. Pump Availability**
-![Profit vs Pumps](profit_vs_pumps.png)
+![Profit vs Pumps](images/profit_vs_pumps.png)
 
 **Profit vs. Labor Hours**
-![Profit vs Labor](profit_vs_labor.png)
+![Profit vs Labor](images/profit_vs_labor.png)
 
 The slope of each curve represents marginal profit. The flattening beyond 207 pumps and 1800 labor hours indicates that further resource additions yield no economic gain.
 
@@ -78,8 +78,8 @@ The slope of each curve represents marginal profit. The flattening beyond 207 pu
 | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `lp_model.py`         | Defines the linear programming model using PuLP and returns optimal results.                                          |
 | `run_analysis.py`     | Executes the baseline optimization, performs sensitivity tests, identifies breakpoints, and generates visualizations. |
-| `profit_vs_pumps.png` | Profit variation with pump availability.                                                                              |
-| `profit_vs_labor.png` | Profit variation with labor availability.                                                                             |
+| `images/profit_vs_pumps.png` | Profit variation with pump availability.                                                                         |
+| `images/profit_vs_labor.png` | Profit variation with labor availability.                                                                        |
 
 ---
 
